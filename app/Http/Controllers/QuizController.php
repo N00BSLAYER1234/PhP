@@ -90,7 +90,7 @@ class QuizController extends Controller
         $total = count($quiz['questions']);
         $percentage = $total > 0 ? round(($score / $total) * 100) : 0;
         
-        // Calculate time taken
+
         $timeElapsed = null;
         if (isset($quiz['start_time'])) {
             $timeElapsed = now()->diffInSeconds($quiz['start_time']);
@@ -140,7 +140,7 @@ class QuizController extends Controller
         $questions = [];
         
         foreach ($countries as $country) {
-            // Get wrong options that are different from the correct answer
+
             $wrongOptions = $allCountries
                 ->where('code', '!=', $country->code)
                 ->where('capital', '!=', $country->capital)
