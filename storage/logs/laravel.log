@@ -4359,6 +4359,7 @@ Stack trace:
 #34 /Users/wendyas/boh php/pro_ggg/artisan(12): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
 #35 {main}
 "} 
+<<<<<<< HEAD
 [2025-06-23 16:35:20] local.ERROR: View [home] not found. {"exception":"[object] (InvalidArgumentException(code: 0): View [home] not found. at /Users/wendyas/new folder/PhP/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php:138)
 [stacktrace]
 #0 /Users/wendyas/new folder/PhP/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php(78): Illuminate\\View\\FileViewFinder->findInPaths('home', Array)
@@ -4416,3 +4417,5 @@ Stack trace:
 #52 /Users/wendyas/new folder/PhP/vendor/laravel/framework/src/Illuminate/Foundation/resources/server.php(23): require_once('/Users/wendyas/...')
 #53 {main}
 "} 
+=======
+>>>>>>> 877f277b85d38a557c35eed269ba17e55da63c3f

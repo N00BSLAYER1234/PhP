@@ -10,7 +10,7 @@ class CountrySeeder extends Seeder
 {
     public function run()
     {
-    
+      
         $countries = [
             ['code' => 'AF', 'name' => 'Afghanistan', 'capital' => 'Kabul', 'region' => 'Asia'],
             ['code' => 'AL', 'name' => 'Albania', 'capital' => 'Tirana', 'region' => 'Europe'],
